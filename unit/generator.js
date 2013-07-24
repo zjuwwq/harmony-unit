@@ -1,6 +1,5 @@
 (function() {
 	// can only run on firfox
-
 	function map(it, fn) {
 		for (var x of it) {
 			yield fn(x);

@@ -1,4 +1,5 @@
 (function() {
+	"use strict";
 	module("proxy");
 	test("proxy", function() {
 		var target = Object.create({
